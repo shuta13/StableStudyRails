@@ -10,6 +10,9 @@ module Serviceofeducation
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 5.2
+    
+    config.assets.initialize_on_precompile = false
+    
     ####
     config.autoload_paths += %W(
       #{config.root}/lib
@@ -22,4 +25,3 @@ module Serviceofeducation
     # the framework and any gems in your application.
   end
 end
-config.assets.initialize_on_precompile = false
