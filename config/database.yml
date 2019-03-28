@@ -25,3 +25,4 @@ production:
   adapter: postgresql
   encoding: unicode
   pool: 5
+  secret_key_base: <%= 77e65a04f6ebafd9eb29a469910929dee93fffeca4c0d95ef66c791d6274f40d1acac661a7ffecc9fb8ca4bee294981126f6bc3d88d6ee7fb2d46464997228e0 %>
