@@ -59,3 +59,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # gem 'pry-rails'
 gem 'jquery-rails'
 gem 'bcrypt'
+
+gem 'sqlite3', group: :development
+
+gem 'pg', group: :production
