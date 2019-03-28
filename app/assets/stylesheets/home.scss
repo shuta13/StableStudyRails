@@ -1,0 +1,315 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body{
+    background-color: ivory;
+  }
+/*start*/
+.startGo{
+  background-color: #35af5f;
+  font-family: "APJapanesefont";
+  font-size: 90px;
+  border-radius: 30px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  border-style: dashed;
+  border-color: #757a7d;
+  border-width: 5px 5px;
+  padding: 10px 10px;
+  margin-top: 125%;
+}
+/*menu*/
+.continueGo{
+  background-color: #35af5f;
+  font-family: "APJapanesefont";
+  font-size: 90px;
+  border-radius: 30px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  border-style: dashed;
+  border-color: #757a7d;
+  border-width: 5px 5px;
+  padding: 10px 10px;
+  margin-top: 40%;
+}
+
+.newGo{
+  background-color: #4285f4;
+  font-family: "APJapanesefont";
+  font-size: 90px;
+  border-radius: 30px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  border-style: dashed;
+  border-color: #757a7d;
+  border-width: 7px 7px;
+  padding: 10px 10px;
+  margin-top: 50%;
+}
+/*top*/
+.toplist{
+  font-family: "APJapanesefont";
+  font-size: 80px;
+  border-radius: 30px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  border-style: dashed;
+  border-color: #757a7d;
+  border-width: 4px 4px;
+  padding: 20px 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-top: 18%;
+  margin-bottom: 15%;
+  display: block;
+}
+
+.goal{
+  color: #ec4d3d;
+}
+.record{
+  color: #35af5f;
+}
+.check{
+  color: #fc9308;
+}
+.forParents{
+  color: #757a7d;
+}
+
+/*login*/
+.loginNotion{
+  color: #ec4d3d;
+  font-family: "APJapanesefont";
+  font-size: 90px;
+  border-radius: 30px;
+  border-color: #757a7d;
+  border-style: dashed;
+  border-width: 5px 5px;
+  text-align: center;
+  margin-top: 15%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.titleLogin{
+  font-family: "Yu Gothic UI Light";
+  font-size: 80px;
+  text-align: center;
+  margin-top: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #757a7d;
+}
+.passLogin{
+  font-family: "Yu Gothic UI Light";
+  font-size: 80px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  color: #757a7d;
+}
+
+/*input欄*/
+.formLogin{
+  font-family: "Yu Gothic UI";
+  font-size: 80px;
+  width: 90%;
+  height: 125px;
+  border-radius: 10px;
+  border-color: #757a7d;
+  border-style: dashed;
+  border-width: 1px 1px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.loginGo{
+  width: 90%;
+  height: 125px;
+  font-size: 80px;
+  border-radius: 10px;
+  border-color: #757a7d;
+  border-style: dashed;
+  border-width: 1px 1px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*input欄終わり*/
+.loginName{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.passInp{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.inpFix{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+::placeholder{
+  font-family: "APJapanesefont";
+  text-align: center;
+  color: #b5b4ac;
+}
+.preLogin{
+  font-family: "Yu Gothic UI";
+  font-size: 50px;
+  height: 125px;
+  color: white;
+  margin-top: 5%;
+  background-color: #35af5f;
+  border-style: solid;
+  border-color: #35af5f;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+}
+/*new*/
+.newNotion{
+  color: #fc9308;
+  font-family: "APJapanesefont";
+  font-size: 90px;
+  border-radius: 30px;
+  border-color: #757a7d;
+  border-style: dashed;
+  border-width: 4px 4px;
+  text-align: center;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.newGuide{
+  font-family: "Yu Gothic UI Light";
+  font-size: 70px;
+  text-align: center;
+  margin-top: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #757a7d;
+}
+.titleNew{
+  font-family: "Yu Gothic UI Light";
+  font-size: 60px;
+  text-align: center;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #757a7d;
+}
+.passSet{
+  font-family: "Yu Gothic UI Light";
+  font-size: 20px;
+  text-align: center;
+  margin-top: 0%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #757a7d;
+}
+.newName{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.newPass{
+  font-family: "Yu Gothic UI Light";
+  font-size: 60px;
+  text-align: center;
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #757a7d;
+}
+.newInp{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*new_input*/
+.formNew{
+  font-family: "Yu Gothic UI";
+  font-size: 125px;
+  width: 90%;
+  height: 125px;
+  border-radius: 10px;
+  border-color: #757a7d;
+  border-style: dashed;
+  border-width: 1px 1px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.newLog{
+  width: 90%;
+  font-size: 125px;
+  height: 125px;
+  border-radius: 10px;
+  border-color: #757a7d;
+  border-style: dashed;
+  border-width: 1px 1px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0%;
+}
+/*new_button*/
+.preNew{
+  font-family: "Yu Gothic UI";
+  font-size: 60px;
+  color: white;
+  margin-top: 15%;
+  background-color: #35af5f;
+  border-style: solid;
+  border-color: #35af5f;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*logout*/
+.outButton{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.outGo{
+  font-family: "APJapanesefont";
+  color: #ffffff;
+  background-color: #35af5f;
+  width: 30%;
+  height: 125px;
+  font-size: 50px;
+  border-radius: 30px;
+  border-color: #757a7d;
+  border-style: dashed;
+  border-width: 1px 1px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.flash{
+  font-family: "Yu Gothic UI";
+  font-size: 125px;
+  color: #fc9308;
+  background-color: #757a7d;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 125%;
+  height: 20%;
+}

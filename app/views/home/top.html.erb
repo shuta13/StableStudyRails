@@ -1,0 +1,24 @@
+<head>
+
+</head>
+<body>
+  <div>
+    <div class="toplist" id="goal">
+      <%= link_to"もくひょうをきめる", {:controller => 'goals', :action => 'goaldecision'}, {:style => "color: #ec4d3d;"} %>
+    </div>
+    <div class="toplist">
+      <%= link_to "きろくする", {:controller => 'records', :action => 'recordimage1'}, {:style => "color: #35af5f;"} %>
+    </div>
+    <div class="toplist">
+      <%= link_to"かくにんする", {:controller => 'check', :action => 'checklist'}, {:style => "color: #fc9308;"} %>
+    </div>
+    <div class="toplist">
+      <%= link_to"つかいかた", {:controller => 'example', :action => 'goalimage'}, {:style => "color: #4285f4;"} %>
+    </div>
+    <%= form_tag("/home/logout") do %>
+      <div class="outButton">
+        <input type="submit" class="outGo" value="おわる">
+      </div>
+    <% end %>
+  </div>
+</body>

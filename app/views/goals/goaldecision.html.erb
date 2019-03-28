@@ -1,0 +1,36 @@
+<head>
+
+</head>
+<body>
+<%= form_tag('/goals/goalcreate') do %>
+  <h1 class="titleRegister">べんきょうどうぐを<br>とうろくしよう</h1>
+  <div class="goalForms">
+    <input name="content" class="formRegister" style="" placeholder="(例)さんすうのきょうかしょ">
+  </div>
+  <h1 class="pageRegister">１にちで<br>すすめるページすうを<br>きめよう<br>
+    <h1 class="subGoalTit">※
+      <%# <ruby> %>
+        <%# <rb>半</rb><rt class="rbelems">はん</rt> %>
+        <%# <rb>角</rb><rt class="rbelems">かく</rt> %>
+        <%# <rb>数</rb><rt class="rbelems">すう</rt> %>
+        <%# <rb>字</rb><rt class="rbelems">じ</rt> %>
+      <%# </ruby> %>
+      はんかくすうじ
+      で<br>にゅうりょくしてください
+      <br>
+      <h1 class="subGoalNum">
+        <ruby>
+          <rb>例</rb><rt>れい</rt>
+        </ruby>
+        :1 2 3 ... 10
+      </h1>
+    </h1>
+  </h1>
+  <div class="numForms">
+    <input name="number" class="numRegister" style="" placeholder="(例) 3">
+  </div>
+  <div class="numFix">
+    <input class="preWords" type="submit" value="とうろく">
+  </div>
+<% end %>
+</body>
